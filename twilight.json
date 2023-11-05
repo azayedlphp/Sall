@@ -1,10 +1,10 @@
 {
     "name": {
-        "ar": "رائد",
-        "en": "Theme Raed"
+        "ar": "shop Store",
+        "en": "Shope Store"
     },
-    "repository": "https://github.com/SallaApp/theme-raed",
-    "author_email": "support@salla.dev",
+    "repository": "https://github.com/azayedlphp/Sall",
+    "author_email": "a.zayed2012@gmail.com",
     "features": [
         "mega-menu",
         "fonts",
@@ -322,36 +322,36 @@
                     "selected": true
                 },
                 {
-                  "type": "boolean",
-                  "icon": "sicon-toggle-off",
-                  "label": "عرض روابط التصنيفات",
-                  "description": "يمكنك تحديد التصنيفات بدل العناصر الخاصة، مع امكانية عرض صورة التصنيف مع العنصر",
-                  "id": "show_cats",
-                  "format": "switch",
-                  "required": false,
-                  "value": false,
-                  "selected": false
+                    "type": "boolean",
+                    "icon": "sicon-toggle-off",
+                    "label": "عرض روابط التصنيفات",
+                    "description": "يمكنك تحديد التصنيفات بدل العناصر الخاصة، مع امكانية عرض صورة التصنيف مع العنصر",
+                    "id": "show_cats",
+                    "format": "switch",
+                    "required": false,
+                    "value": false,
+                    "selected": false
                 },
                 {
-                  "id": "categories",
-                  "type": "items",
-                  "format": "dropdown-list",
-                  "label": "حدد التصنيفات",
-                  "labelHTML": null,
-                  "icon": "sicon-keyboard_arrow_down",
-                  "selected": [],
-                  "options": [],
-                  "source": "categories",
-                  "multichoice": true,
-                  "searchable": true,
-                  "required": false,
-                  "conditions": [
-                    {
-                        "id": "show_cats",
-                        "operation": "=",
-                        "value": true
-                    }
-                  ]
+                    "id": "categories",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "حدد التصنيفات",
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "conditions": [
+                        {
+                            "id": "show_cats",
+                            "operation": "=",
+                            "value": true
+                        }
+                    ]
                 },
                 {
                     "id": "links",
@@ -466,11 +466,11 @@
                         }
                     ],
                     "conditions": [
-                      {
-                          "id": "show_cats",
-                          "operation": "=",
-                          "value": false
-                      }
+                        {
+                            "id": "show_cats",
+                            "operation": "=",
+                            "value": false
+                        }
                     ]
                 }
             ]
@@ -794,9 +794,9 @@
             ]
         }
     ],
-    "support_url": "https://salla.dev",
+    "support_url": "https://drawway.solutions",
     "description": {
-        "ar": "مجموعة كبيرة من المزايا لدعم تجارتك وتقديم تجربة تسوق مثيرة لعملائك",
-        "en": "A wide range of features to support your business and provide an exciting shopping experience for your customers"
+        "ar": "موقع تسويق اون لاين تستطيع من خلالة عرض منتجاتك على مدار 24 ساعة",
+        "en": "Ecommerce Store you can bay and sell any product Online"
     }
 }
